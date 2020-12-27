@@ -1,20 +1,151 @@
-# fs_dorms
-<p>Automate closing the Pisciners accounts who didn't pass initial inspection. (GoogleSheets &amp; 42 APIs)</p>
+<!--
+*** Thanks for checking out the Best-README-Template. If you have a suggestion
+*** that would make this better, please fork the fs_drms_demo and create a pull request
+*** or simply open an issue with the tag "enhancement".
+*** Thanks again! Now go create something AMAZING! :D
+***
+***
+***
+*** To avoid retyping too much info. Do a search and replace for the following:
+*** github_username, fs_drms_demo_name, twitter_handle, email, project_title, project_description
+-->
 
-<b>Last minute</b> README here (i.e. first draft):
 
-*<b> Make sure RA's use the correct spreadsheet shared to RA drive</b>*
 
-*<b> Final column of spreadsheet defining whether account is closed or not currently must be filled out by RA's with
-      -- 'n' or 'y' after each inspection before running script.</b>*
+<!-- PROJECT SHIELDS -->
+<!--
+*** I'm using markdown "reference style" links for readability.
+*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
+*** See the bottom of this document for the declaration of the reference variables
+*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
+*** https://www.markdownguide.org/basic-syntax/#reference-style-links
+-->
 
-1. Inside main.py function - ‘close_request()’ :<br /> 
-    <p>In ‘payload’ dictionary:<br /></p> 
-      <p><b>Replace ‘closer_id’ int value w/ your closer_id.</b></p> 
 
-2. In your shell’s environment variables, create variables 'FT_SECRET' and 'FT_CLIENT' for your 42 api secret and client id 
-   -- created from intra app that gives you roles and access to 42 api. The script will use the os python library to pull those variables from the shell.
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
+[![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
 
-3. Your 42 api app must have <b>‘Basic Staff’</b> and <b>'tig’ scope</b> must be set.
 
+<!-- PROJECT LOGO -->
+<br />
+<p align="center">
+  <a href="https://github.com/MooseandSquvirrel/fs_drms_demo.git">
+    <img src="public/images/favpng_sherlock.png" alt="drms logo" width="80" height="80">
+  </a>
+
+  <h3 align="center">Open Close Commandline Program</h3>
+
+  <p align="center">
+  	Demo version of script for opening and closing bootcamp students' accounts.
+    <br />
+    <a href="https://github.com/MooseandSquvirrel/fs_drms_demo.git"><strong>Explore the docs »</strong></a
+  </p>
+</p>
+
+
+
+<!-- TABLE OF CONTENTS -->
+<details open="open">
+  <summary><h2 style="display: inline-block">Table of Contents</h2></summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <li><a href="#usage">Usage</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ol>
+</details>
+
+
+
+<!-- ABOUT THE PROJECT -->
+## About The Project
+![Google Sheets](images/googleSheets.png)
+
+This commandline program was a script I decided to create when I noticed one of my fellow interns working 
+alone and for too many hours on a very manual task. I wanted to help. My fellow intern was tasked with opening or 
+closing bootcamp student accounts depending on whether they passed their room inspections for the housing. 
+<br /><br /> 
+The RA's for the dorms used an Excel spreadsheet so to keep it familiary, I utilized an almost identical format with Google Sheets. This allowed me to design a simple familiar form to be filled out, and also allowed for automation using the Google Sheets API. Data from the inspections was pulled from the form's cells, stored, and then depending the results, chose which students accounts to temporarily close or reopen using the school's API. It took a 4 - 5 hour task and made it a 15 - 30 seconds. 
+
+### Built With
+
+* [Python 3](https://www.python.org/)
+* [Google Sheets](https://www.google.com/sheets/about/)
+
+
+
+<!-- GETTING STARTED -->
+## Getting Started
+
+The official desktop application was not meant for being open-sourced and therefore
+is not for use in it's full functionality to be reproduced locally. This is because of the permissions required including: staff/employee permissions, API scope and other necessary info not accessible to the public. The application's code has been modified and commit history scrubbed. Confidential information and files integral to its functioning have therefore been removed. 
+
+To see the code, please visit: <a href="https://github.com/MooseandSquvirrel/fs_drms_demo.git">The Code</a>
+<br />
+
+### Prerequisites
+
+* None
+  ```sh
+  N/A
+  ```
+
+### Installation
+
+1. Again, None :). 
+   ```sh
+   N/A
+   ```
+
+<!-- USAGE EXAMPLES -->
+## Usage
+
+This project is not meant for reproduction in its full fuctionality and is more for demo/portfolio purposes.
+
+<!-- LICENSE -->
+## License
+
+Distributed under the MIT License. See `LICENSE` for more information.
+
+
+<!-- CONTACT -->
+## Contact
+
+Andy Gardner - web.dev.bud1@gmail.com
+
+Project Link: [https://github.com/MooseandSquvirrel/fs_drms_demo.git](https://github.com/MooseandSquvirrel/fs_drms_demo.git)
+
+
+### Attribute
+
+[logo](https://www.flaticon.com/free-icon/open_1169906?term=open%20close&page=1&position=9&related_item_id=1169906)
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[contributors-shield]: https://img.shields.io/github/contributors/MooseandSquvirrel/fs_drms_demo.svg?style=for-the-badge
+[contributors-url]: https://github.com/MooseandSquvirrel/fs_drms_demo/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/MooseandSquvirrel/fs_drms_demo.svg?style=for-the-badge
+[forks-url]: https://github.com/MooseandSquvirrel/fs_drms_demo/network/members
+[stars-shield]: https://img.shields.io/github/stars/MooseandSquvirrel/fs_drms_demo.svg?style=for-the-badge
+[stars-url]: https://github.com/MooseandSquvirrel/fs_drms_demo/stargazers
+[issues-shield]: https://img.shields.io/github/issues/MooseandSquvirrel/fs_drms_demo.svg?style=for-the-badge
+[issues-url]: https://github.com/MooseandSquvirrel/fs_drms_demo/issues
+[license-shield]: https://img.shields.io/github/license/MooseandSquvirrel/fs_drms_demo.svg?style=for-the-badge
+[license-url]: https://github.com/MooseandSquvirrel/fs_drms_demo/blob/master/LICENSE.txt
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://linkedin.com/in/MooseandSquvirrel
 
