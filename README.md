@@ -32,10 +32,10 @@
 <br />
 <p align="center">
   <a href="https://github.com/MooseandSquvirrel/fs_drms_demo.git">
-    <img src="public/images/favpng_sherlock.png" alt="drms logo" width="80" height="80">
+    <img src="images/open.png" alt="drms logo" width="80" height="80">
   </a>
 
-  <h3 align="center">Open Close Commandline Program</h3>
+  <h3 align="center">Open Close Command-line Program</h3>
 
   <p align="center">
   	Demo version of script for opening and closing bootcamp students' accounts.
@@ -73,7 +73,12 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-![Google Sheets](images/googleSheets.png)
+
+<p align="center">
+  <a href="https://github.com/MooseandSquvirrel/fs_drms_demo.git">
+    <img src="images/googleSheets.png" alt="drms logo" width="400" height="450">
+  </a>
+ </p>
 
 This commandline program was a script I decided to create when I noticed one of my fellow interns working 
 alone and for too many hours on a very manual task. I wanted to help. My fellow intern was tasked with opening or 
