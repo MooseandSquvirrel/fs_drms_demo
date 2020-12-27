@@ -22,8 +22,6 @@
 -->
 
 
-[![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
-
 
 <!-- PROJECT LOGO -->
 <br />
@@ -61,7 +59,6 @@
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
-    <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
   </ol>
 </details>
@@ -120,11 +117,6 @@ To see the code, please visit: <a href="https://github.com/MooseandSquvirrel/fs_
 ## Usage
 
 This project is not meant for reproduction in its full fuctionality and is more for demo/portfolio purposes.
-
-<!-- LICENSE -->
-## License
-
-Distributed under the MIT License. See `LICENSE` for more information.
 
 
 <!-- CONTACT -->
