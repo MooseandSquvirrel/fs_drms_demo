@@ -79,9 +79,12 @@
 
 This commandline program was a script I decided to create when I noticed one of my fellow interns working 
 alone and for too many hours on a very manual task. I wanted to help. My fellow intern was tasked with opening or 
-closing bootcamp student accounts depending on whether they passed their room inspections for the housing. 
-<br /><br /> 
-The RA's for the dorms used an Excel spreadsheet so to keep it familiary, I utilized an almost identical format with Google Sheets. This allowed me to design a simple familiar form to be filled out, and also allowed for automation using the Google Sheets API. Data from the inspections was pulled from the form's cells, stored, and then depending the results, chose which students accounts to temporarily close or reopen using the school's API. It took a 4 - 5 hour task and made it a 15 - 30 seconds. 
+closing bootcamp student accounts depending on whether they passed their room inspections for the housing. RA's
+would perform room inspections and fill out an Excel spreadsheet. The intern would then have to manually use the
+info in the spreadsheet and use our school's website GUI to enter then information from the spreadsheet cells 
+one input field at a time for each student out of potentially hundreds.
+<br /><br />
+To help, I began building starting with an almost identical format, being Google Sheets, so I could make API calls to begin the automation. This allowed me to automate the process and design a simple familiar form to be filled out by the RA's and staff. Data from the inspections was pulled from the form's cells, stored, and then depending the results, the program chose which students accounts to temporarily close or reopen using calls to the school's own API. It took a 4 - 5 hour task and made it a 15 - 30 seconds. 
 
 ### Built With
 
