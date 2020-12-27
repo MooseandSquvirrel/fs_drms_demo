@@ -22,9 +22,6 @@
 -->
 
 
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
 [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
 
 
@@ -139,18 +136,4 @@ Project Link: [https://github.com/MooseandSquvirrel/fs_drms_demo.git](https://gi
 
 [logo](https://www.flaticon.com/free-icon/open_1169906?term=open%20close&page=1&position=9&related_item_id=1169906)
 
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/MooseandSquvirrel/fs_drms_demo.svg?style=for-the-badge
-[contributors-url]: https://github.com/MooseandSquvirrel/fs_drms_demo/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/MooseandSquvirrel/fs_drms_demo.svg?style=for-the-badge
-[forks-url]: https://github.com/MooseandSquvirrel/fs_drms_demo/network/members
-[stars-shield]: https://img.shields.io/github/stars/MooseandSquvirrel/fs_drms_demo.svg?style=for-the-badge
-[stars-url]: https://github.com/MooseandSquvirrel/fs_drms_demo/stargazers
-[issues-shield]: https://img.shields.io/github/issues/MooseandSquvirrel/fs_drms_demo.svg?style=for-the-badge
-[issues-url]: https://github.com/MooseandSquvirrel/fs_drms_demo/issues
-[license-shield]: https://img.shields.io/github/license/MooseandSquvirrel/fs_drms_demo.svg?style=for-the-badge
-[license-url]: https://github.com/MooseandSquvirrel/fs_drms_demo/blob/master/LICENSE.txt
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/MooseandSquvirrel
 
